@@ -6,7 +6,11 @@
     "codespaces": {
       "openFiles": [
         "README.md",
+<<<<<<< HEAD
         "testprogram.py"
+=======
+        "Hello.py"
+>>>>>>> c1051fc9f84148e89e0c87f6ea2025e85a7bb3e7
       ]
     },
     "vscode": {
@@ -19,7 +23,11 @@
   },
   "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {
+<<<<<<< HEAD
     "server": "streamlit run testprogram.py --server.enableCORS false --server.enableXsrfProtection false"
+=======
+    "server": "streamlit run Hello.py --server.enableCORS false --server.enableXsrfProtection false"
+>>>>>>> c1051fc9f84148e89e0c87f6ea2025e85a7bb3e7
   },
   "portsAttributes": {
     "8501": {
@@ -30,4 +38,8 @@
   "forwardPorts": [
     8501
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c1051fc9f84148e89e0c87f6ea2025e85a7bb3e7
